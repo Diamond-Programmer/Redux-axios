@@ -30,6 +30,9 @@ export const Card = styled.div`
     padding: 10px 15px;
     margin: 10px auto ;
     transition: all .5s ease-in-out;
-    cursor: pointer;}
+    cursor: pointer;
+    margin: auto 10px;
+    
+  };
 
 `;

@@ -10,7 +10,7 @@ export const getProductReducer = (state = defaultState, action) => {
       return {
         loading: true,
         error: false,
-        success: [],
+        success: state.success,
       };
     case "GET_PRODUCT_SUCCESS":
       return {
